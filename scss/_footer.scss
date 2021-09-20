@@ -1,0 +1,57 @@
+.footer {
+  background: $brand-color;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  padding: 0px 50px;
+  color: #fff;
+  width: 100%;
+  margin-top: 40px;
+}
+
+.footer-copyright{
+  font-size: 18px;
+  font-weight: 200;
+}
+
+.footer-links {
+  display: flex;
+  align-items: center;
+
+}
+
+.footer-links a {
+  color: #fff;
+  opacity: 0.15;
+  text-decoration: none;
+  font-size: 24px;
+  padding: 0px 10px;
+}
+
+.footer-links a:hover {
+  color: #fff;;
+  opacity: 1;
+}
+
+.footer .fa-heart {
+  color: #D23333;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  flex: 1 0 auto;
+}
+
+.footer {
+  flex-shrink: 0;
+}
