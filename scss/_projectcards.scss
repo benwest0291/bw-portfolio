@@ -1,0 +1,31 @@
+.projects {
+  margin: 20px;
+  padding: 25px;
+  background-color: $brand-color;
+  border-radius: 10px 10px;
+  align-items: center;
+  color: #fff;
+  text-align: center;
+  font-size: 22px;
+  min-height: 650px;
+}
+
+.projects-img {
+  width: 390px;
+  border-radius: 10px 10px;
+}
+
+.project-description {
+  height: auto;
+  margin-top: 20px;
+  min-height: 100px;
+}
+
+.card-buttons{
+  display: flex;
+  align-self: flex-end;
+}
+
+.card-heading{
+  margin: 20px;
+}
