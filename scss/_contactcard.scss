@@ -1,0 +1,27 @@
+.contact-card {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 22px;
+  background: $brand-color;
+  color: #fff;
+  padding: 25px;
+  border-radius: 10px 10px;
+  box-shadow: 2px 2px 5px rgba(30, 221, 136, 0.8);
+  max-width: 500px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+
+input{
+  height: 45px;
+}
+
+form .submit {
+  background-color: #1EDD88;
+  color: #fff;
+  font-size: 20px;
+  height: 50px;
+  margin-top: 20px;
+  border: 2px solid #fff;
+}
