@@ -1,0 +1,27 @@
+.navbar-lewagon {
+  background-color: $brand-color;
+  z-index: 100;
+  padding: 18px;
+  position: fixed;
+  width: 100%;
+}
+
+.navbar-lewagon .navbar-collapse {
+  flex-grow: 0;
+  justify-content: space-between;
+  width: 100%;
+
+}
+
+.navbar-lewagon .navbar-brand img {
+  width: 220px;
+}
+
+.img{
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-link {
+  color: #fff !important;
+}

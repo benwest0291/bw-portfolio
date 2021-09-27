@@ -1,5 +1,5 @@
 .navbar-lewagon {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: #2d364e;
   z-index: 100;
   padding: 18px;
   position: fixed;
@@ -17,7 +17,16 @@
 }
 
 .navbar-lewagon .navbar-brand img {
-  width: 40px;
+  width: 220px;
+}
+
+.img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .nav-link {
@@ -104,34 +113,68 @@ body {
   background: #2d364e;
 }
 
-.container-banner {
+.banner {
   background-size: cover;
   background-position: center;
-  padding: 175px 0;
-  border-radius: 0 0 20px 20px;
-}
-
-.banner {
+  padding: 150px 0;
+  background-color: #2d364e;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .banner h1 {
   margin: 0;
   color: white;
-  text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.8);
-  font-size: 100px;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  font-size: 42px;
   font-weight: bold;
-  padding-left: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 20px;
+}
+
+.banner h2 {
+  margin: 0;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  font-size: 42px;
+  font-weight: bold;
+  margin-bottom: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.btn-flat {
+  margin: 0 auto;
+  display: block;
+}
+
+.btn-flat {
+  color: white;
+  padding: 8px 24px;
+  border-radius: 4px;
+  background: #1EDD88;
+  -webkit-transition: background 0.3s ease;
+  transition: background 0.3s ease;
+  width: 150px;
   text-align: center;
-  font-family: 'Raleway', sans-serif;
+}
+
+.btn-flat:hover {
+  background: #1BCB7F;
+  color: white;
+  text-decoration: none;
 }
 /*# sourceMappingURL=styles.css.map */
