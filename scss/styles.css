@@ -1,8 +1,6 @@
 .navbar-lewagon {
   background-color: #2d364e;
-  z-index: 100;
   padding: 18px;
-  position: fixed;
   width: 100%;
 }
 
@@ -167,6 +165,55 @@ body {
   margin-bottom: 25px;
 }
 
+@media all and (min-width: 600px) {
+  .media-container-1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .freelance-card {
+    margin-top: 1000px;
+    height: 600px;
+  }
+  .media-container-2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .main-paragraph {
+    margin-right: 50px;
+  }
+  .freelance-img {
+    margin-bottom: 100px;
+  }
+  .project-media {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .projects-card {
+    height: 750px;
+  }
+  .skills {
+    width: 700px;
+  }
+  .main-paragraph {
+    width: 500px;
+  }
+}
+
 .banner {
   background-size: cover;
   background-position: center;
@@ -279,7 +326,6 @@ body {
   -webkit-box-shadow: 5px 5px 5px rgba(30, 221, 136, 0.5);
           box-shadow: 5px 5px 5px rgba(30, 221, 136, 0.5);
   min-width: 450px;
-  max-width: 500px;
 }
 
 .projects-img {
@@ -368,6 +414,7 @@ body {
   max-width: 500px;
   margin-left: 20px;
   margin-right: 20px;
+  width: 450px;
 }
 
 input {
@@ -376,6 +423,8 @@ input {
 
 form .submit {
   background-color: #1EDD88;
+  -webkit-box-shadow: 2px 2px 5px rgba(30, 221, 136, 0.8);
+          box-shadow: 2px 2px 5px rgba(30, 221, 136, 0.8);
   color: #fff;
   font-size: 20px;
   height: 50px;
