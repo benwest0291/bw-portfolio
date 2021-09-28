@@ -2,10 +2,12 @@
   background-size: cover;
   background-position: center;
   padding: 150px 0;
-  background-color: $brand-color;
+  background: linear-gradient(90deg,
+    $brand-color,
+    #8C93A6);
   display: flex;
   justify-content: center;
-  padding-bottom: 360px;
+  padding-bottom: 290px;
 }
 
 .banner h1 {

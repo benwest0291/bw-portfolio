@@ -15,8 +15,10 @@
 <body>
 
 <!--Nabar-->
+ <a name="home"></a>
 <div class=" navbar navbar-expand-sm navbar-light navbar-lewagon">
-    <a class="navbar-brand" href="">
+
+    <a class="navbar-brand" href="#home">
     <img src="images/BW-logo.png"/>
 </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -43,11 +45,11 @@
 <!--Navbar End-->
 
 <!--Banner-->
-<div class="banner" style="background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://images.unsplash.com/photo-1548092372-0d1bd40894a3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80);">
+<div class="banner" style="">
   <div class="">
     <h1>Hi i'm Ben 👋🏻</h1>
       <h2><strong>I am a Fullstack Web Developer 🤓💻</strong></h2>
-    <a class="btn-flat" data-toggle="modal" data-target="#exampleModalLong">Contact</a>
+    <a class="btn-flat" href="#contact">Contact</a>
   </div>
 </div>
 <!--Banner End-->
@@ -315,33 +317,3 @@
     <script>AOS.init();</script>
 </body>
 </html>
-
-<!-- Modal -->
-<div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLongTitle">👋🏻</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-       <div class="contact-card">
-<h2 class="heading"><strong>Contact Me 📱</strong></h2>
-      <form id="contact-form" method="post" action="contactform.php">
-        <input name="name" type="text" class="form-control" placeholder="Your Name" required><br>
-
-        <input name="email" type="email" class="form-control" placeholder="Your Email" required><br>
-
-        <textarea name="message" class="form-control" placeholder="Message" rows="4" required></textarea><br>
-
-        <input type="submit" class="form-control submit" value="Send Message">
-      </form>
-    </div>
-  </div>
-</div>
-      </div>
-    </div>
-  </div>
-</div>

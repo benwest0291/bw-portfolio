@@ -67,5 +67,15 @@ body {
   //   border-radius:10px;
   //   border: solid 1px $brand-color;
   //   box-shadow: 2px 2px 5px rgba(30, 221, 136, 0.8);
+  }.navbar-lewagon .navbar-brand img {
+    margin-left: 100px;
+  }.navbar-nav {
+    margin-right: 100px;
+  }.nav-item .nav-link{
+    font-size: 25px;
+    text-shadow: 2px 2px 3px rgba(30, 221, 136, 0.5);
+  }.navbar-lewagon .navbar-brand img{
+    width: 280px;
   }
+
 }
