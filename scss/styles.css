@@ -109,6 +109,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  overflow-x: hidden;
 }
 
 .container {
@@ -119,6 +120,10 @@ body {
 
 .footer-text {
   font-size: 10px;
+}
+
+body {
+  overflow-x: hidden;
 }
 
 .container {

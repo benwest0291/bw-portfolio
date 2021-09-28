@@ -1,6 +1,11 @@
 body {
-
+overflow-x: hidden;
 }
+
+// * {
+//   outline: 1px solid red !important;
+
+// }
 
 .container{
   display: flex;
