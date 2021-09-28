@@ -7,9 +7,9 @@
 
  $email_subject = "New Form Submission";
 
- $email_body = "User Name: $name.\n".
-               "User Email: $visitor_email.\n".
-                    "User Message: $message.\n";
+ $email_body = "Name of Contact: $name.\n".
+               "Email address: $visitor_email.\n".
+                    "Message: $message.\n";
 
 
                 $to = "info@benwestwebdesign.co.uk";
