@@ -18,13 +18,13 @@
 .footer-copyright{
   text-align: center;
   font-size: 18px;
-   opacity: 0.8;
+  opacity: 0.8;
 }
 
 .footer-links {
+  margin-top: 10px;
   display: flex;
   align-items: center;
-
 }
 
 .footer-links a {
@@ -38,10 +38,6 @@
 .footer-links a:hover {
   color: #1EDD88;
   opacity: 1;
-}
-
-.footer .fa-heart {
-  color: #D23333;
 }
 
 html,

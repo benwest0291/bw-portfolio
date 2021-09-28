@@ -71,6 +71,7 @@
 }
 
 .footer-links {
+  margin-top: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -90,10 +91,6 @@
 .footer-links a:hover {
   color: #1EDD88;
   opacity: 1;
-}
-
-.footer .fa-heart {
-  color: #D23333;
 }
 
 html,
@@ -155,8 +152,7 @@ body {
   border-radius: 10px 10px;
   -webkit-box-shadow: 2px 2px 5px rgba(30, 221, 136, 0.8);
           box-shadow: 2px 2px 5px rgba(30, 221, 136, 0.8);
-  min-width: 450px;
-  max-width: 500px;
+  width: 500px;
 }
 
 .img-me {
@@ -177,7 +173,6 @@ body {
             flex-direction: row;
   }
   .freelance-card {
-    margin-top: 1000px;
     height: 600px;
   }
   .media-container-2 {
@@ -208,7 +203,7 @@ body {
     height: 750px;
   }
   .skills {
-    width: 700px;
+    width: 500px;
   }
   .main-paragraph {
     width: 500px;
@@ -340,7 +335,7 @@ body {
   min-height: 130px;
   -webkit-box-shadow: 5px 5px 5px rgba(30, 221, 136, 0.5);
           box-shadow: 5px 5px 5px rgba(30, 221, 136, 0.5);
-  min-width: 450px;
+  width: 500px;
 }
 
 .projects-img {
@@ -387,8 +382,7 @@ body {
   border-radius: 10px 10px;
   -webkit-box-shadow: 2px 2px 5px rgba(30, 221, 136, 0.8);
           box-shadow: 2px 2px 5px rgba(30, 221, 136, 0.8);
-  min-width: 450px;
-  max-width: 500px;
+  width: 500px;
 }
 
 .freelance-img {
@@ -409,8 +403,7 @@ body {
   border-radius: 10px 10px;
   -webkit-box-shadow: 2px 2px 5px rgba(30, 221, 136, 0.8);
           box-shadow: 2px 2px 5px rgba(30, 221, 136, 0.8);
-  max-width: 500px;
-  width: 450px;
+  width: 500px;
 }
 
 input {

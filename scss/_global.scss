@@ -30,8 +30,7 @@ overflow-x: hidden;
   padding: 25px;
   border-radius: 10px 10px;
   box-shadow: 2px 2px 5px rgba(30, 221, 136, 0.8);
-  min-width: 450px;
-  max-width: 500px;
+  width: 500px;
 }
 
 .img-me{
@@ -49,7 +48,6 @@ overflow-x: hidden;
   display: flex;
   flex-direction: row;
   }.freelance-card{
-    margin-top: 1000px;
     height: 600px;
   }.media-container-2{
     display: flex;
@@ -61,10 +59,11 @@ overflow-x: hidden;
   }.project-media{
     display: flex;
     flex-direction: row;
+    // justify-content: space-between;
   }.projects-card{
     height: 750px;
   }.skills{
-    width: 700px;
+    width: 500px;
   }.main-paragraph{
     width: 500px;
   // }.bottom-img{
