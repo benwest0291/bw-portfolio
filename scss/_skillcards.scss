@@ -1,5 +1,7 @@
 .skills {
-  background-color: $brand-color;
+  background: linear-gradient(5deg,
+    $brand-color,
+    #8C93A6);
   border-radius: 10px 10px;
   align-items: center;
   box-shadow: 5px 5px 5px rgba(30, 221, 136, 0.5);

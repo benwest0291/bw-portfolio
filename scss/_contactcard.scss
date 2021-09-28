@@ -2,7 +2,9 @@
   margin-top: 30px;
   text-align: center;
   font-size: 22px;
-  background: $brand-color;
+  background: linear-gradient(5deg,
+    #8C93A6,
+    $brand-color);
   color: #fff;
   padding: 25px;
   border-radius: 10px 10px;

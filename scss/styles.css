@@ -1,5 +1,6 @@
 .navbar-lewagon {
-  background-color: #2d364e;
+  background: -webkit-gradient(linear, left top, right top, from(#2d364e), to(#8C93A6));
+  background: linear-gradient(90deg, #2d364e, #8C93A6);
   padding: 18px;
   width: 100%;
 }
@@ -41,7 +42,7 @@
 }
 
 .footer {
-  background: #2d364e;
+  background: linear-gradient(10deg, #2d364e, #8C93A6);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -148,7 +149,7 @@ body {
   margin-top: 30px;
   text-align: center;
   font-size: 22px;
-  background: #2d364e;
+  background: linear-gradient(5deg, #2d364e, #8C93A6);
   color: #fff;
   padding: 25px;
   border-radius: 10px 10px;
@@ -163,6 +164,11 @@ body {
   width: 200px;
   border-radius: 50%;
   margin-bottom: 25px;
+}
+
+.heading {
+  font-size: 30px;
+  font-weight: 800;
 }
 
 @media all and (min-width: 600px) {
@@ -218,7 +224,8 @@ body {
   background-size: cover;
   background-position: center;
   padding: 150px 0;
-  background-color: #2d364e;
+  background: -webkit-gradient(linear, left top, right top, from(#2d364e), to(#8C93A6));
+  background: linear-gradient(90deg, #2d364e, #8C93A6);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -226,6 +233,7 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   padding-bottom: 360px;
+  border-radius: 0 0 10px 10px;
 }
 
 .banner h1 {
@@ -283,7 +291,7 @@ body {
 }
 
 .skills {
-  background-color: #2d364e;
+  background: linear-gradient(5deg, #2d364e, #8C93A6);
   border-radius: 10px 10px;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -405,7 +413,7 @@ body {
   margin-top: 30px;
   text-align: center;
   font-size: 22px;
-  background: #2d364e;
+  background: linear-gradient(5deg, #8C93A6, #2d364e);
   color: #fff;
   padding: 25px;
   border-radius: 10px 10px;
