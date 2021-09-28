@@ -7,12 +7,12 @@
 
  $email_subject = "New Form Submission";
 
- $email_body "User Name: $name.\n".
+ $email_body = "User Name: $name.\n".
                "User Email: $visitor_email.\n".
                     "User Message: $message.\n";
 
 
-                $to = "bwest0291@gmail.com";
+                $to = "info@benwestwebdesign.co.uk";
 
                 $headers = "Form: $email_from \r\n";
                 $headers = "Reply-To: $vistitor_email \r\n";
