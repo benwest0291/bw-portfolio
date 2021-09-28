@@ -241,6 +241,7 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   padding-bottom: 290px;
+  border-radius: 0 0 10px 10px;
 }
 
 .banner h1 {
