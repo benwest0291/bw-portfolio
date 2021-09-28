@@ -1,3 +1,71 @@
 body {
+
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.heading{
+  text-align: center;
+  margin: 25px;
+}
+
+.main-paragraph{
+  margin-top: 30px;
+  text-align: center;
+  font-size: 22px;
   background: $brand-color;
+  color: #fff;
+  padding: 25px;
+  border-radius: 10px 10px;
+  box-shadow: 2px 2px 5px rgba(30, 221, 136, 0.8);
+  min-width: 450px;
+  max-width: 500px;
+}
+
+.img-me{
+  border: 2px solid #fff;
+  width: 200px;
+  border-radius: 50%;
+  margin-bottom: 25px;
+}
+
+
+
+
+@media all and (min-width: 600px) {
+  .media-container-1{
+  display: flex;
+  flex-direction: row;
+  }.freelance-card{
+    margin-top: 1000px;
+    height: 600px;
+  }.media-container-2{
+    display: flex;
+    flex-direction: column;
+  }.main-paragraph{
+    margin-right: 50px;
+  }.freelance-img{
+    margin-bottom: 100px;
+  }.project-media{
+    display: flex;
+    flex-direction: row;
+  }.projects-card{
+    height: 750px;
+  }.skills{
+    width: 700px;
+  }.main-paragraph{
+    width: 500px;
+  // }.bottom-img{
+  //   margin-top: 25px;
+  //   width: 450px;
+  //   height: 500px;
+  //   border-radius:10px;
+  //   border: solid 1px $brand-color;
+  //   box-shadow: 2px 2px 5px rgba(30, 221, 136, 0.8);
+  }
 }

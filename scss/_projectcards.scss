@@ -1,0 +1,44 @@
+.projects {
+  margin: 20px;
+  padding: 25px;
+  background-color: $brand-color;
+  border-radius: 10px 10px;
+  align-items: center;
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  min-height: 130px;
+  box-shadow: 5px 5px 5px rgba(30, 221, 136, 0.5);
+  min-width: 450px;
+}
+
+.projects-img {
+  width: 390px;
+  border-radius: 10px 10px;
+}
+
+.project-description {
+  height: auto;
+  margin-top: 20px;
+  min-height: 100px;
+  padding-bottom: 10px;
+}
+
+.card-buttons{
+  display: flex;
+  align-self: flex-end;
+}
+
+.card-heading{
+  margin: 20px;
+}
+
+.skill-section{
+  margin: 10px;
+}
+
+.skill-used{
+  width: 25px;
+  height: 25px;
+  margin: 10px;
+}

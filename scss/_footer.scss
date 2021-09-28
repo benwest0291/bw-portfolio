@@ -13,7 +13,6 @@
 
 .footer-copyright{
   font-size: 18px;
-  font-weight: 200;
 }
 
 .footer-links {
@@ -31,7 +30,7 @@
 }
 
 .footer-links a:hover {
-  color: #fff;;
+  color: #1EDD88;
   opacity: 1;
 }
 
@@ -49,10 +48,16 @@ body {
   flex-direction: column;
 }
 
-.content {
+.container {
   flex: 1 0 auto;
 }
 
 .footer {
   flex-shrink: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-text{
+  font-size: 10px;
 }

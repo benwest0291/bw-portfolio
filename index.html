@@ -5,32 +5,343 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ben West Web Design</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gemunu+Libre&family=Roboto:wght@300&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="scss/styles.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
 
-
-
-
-<div class="content">
-
-
-
+<!--Nabar-->
+<div class=" navbar navbar-expand-sm navbar-light navbar-lewagon">
+    <a class="navbar-brand" href="">
+    <img src="images/BW-logo.png"/>
+</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+      </li>
+    </ul>
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#about">About</a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link" href="#projects">Projects</a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link" href="#contact">Contact</a>
+      </li>
+    </ul>
+  </div>
 </div>
-<div class="footer">
-      <div class="footer-links">
-        <a href="#"><i class="fab fa-instagram"></i></a>
-        <a href="#"><i class="fab fa-facebook"></i></a>
-        <a href="#"><i class="fab fa-linkedin"></i></a>
+<!--Navbar End-->
+
+<!--Banner-->
+<div class="banner" style="background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://images.unsplash.com/photo-1548092372-0d1bd40894a3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80);">
+  <div class="">
+    <h1>Hi i'm Ben 👋🏻</h1>
+      <h2><strong>I am a Fullstack Web Developer 🤓💻</strong></h2>
+    <a class="btn-flat" data-toggle="modal" data-target="#exampleModalLong">Contact</a>
+  </div>
+</div>
+<!--Banner End-->
+
+<div class="container">
+  <div class="media-container-1">
+    <div class="media-container-2">
+<!-- Into-->
+<div data-aos="fade-up"
+     data-aos-duration="3000">
+     <a name="about"></a>
+<h2 class="heading"><strong>About Me 🤓</strong></h2>
+
+ <div class="main-paragraph"  >
+  <img class="img-me" src="images/me_black_white.png"/>
+    <p>Hello, I'm Ben - slightly obsessed with full stack web development and driven by my passion for designing a building full stack applications.
+      I have completed the treehouse front end tech degree and Le Wagon London full stack web development bootcamp where I have grown my passion in full stack development.</p>
+  </div>
+</div>
+<!-- Into End-->
+
+<!--Freelance Info-->
+<div class="freelance-card" data-aos="fade-up"
+     data-aos-duration="3000">
+<h2 class="heading"><strong>Freelance 🚀</strong></h2>
+<img class="freelance-img" src="https://images.unsplash.com/photo-1537498425277-c283d32ef9db?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1178&q=80">
+<p class="freelance-p"> I am also available as a freelance Web Developer. Get in touch to discuss your amazing project ideas💡</p>
+</div>
+</div>
+
+
+
+
+<!--Skill Card-->
+<div data-aos="fade-up" data-aos-duration="2000">
+<h2 class="heading"><strong>My Skills 💻</strong></h2>
+  <div class="skills">
+    <p>
+      <div class="skill-list-group" data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
+        <img class="skill-list" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg"/>
+        <img class="skill-list" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" />
       </div>
-      <div class="footer-copyright">
-      Made with <i class="fas fa-heart"></i>  By Ben West
+
+      <div class="skill-list-group" data-aos="flip-right"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
+        <img class="skill-list" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg"/>
+        <img class="skill-list" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" />
+      </div>
+
+      <div class="skill-list-group" data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
+        <img class="skill-list" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg"/>
+        <img class="skill-list" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/ruby/ruby-original.svg"/>
+      </div>
+
+      <div class="skill-list-group" data-aos="flip-right"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
+        <img class="skill-list" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/rails/rails-original-wordmark.svg"/>
+        <img class="skill-list" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg"/>
+      </div>
+
+      <div class="skill-list-group" data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
+        <img class="skill-list" src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg"/>
+        <img class="skill-list" src="https://www.vectorlogo.zone/logos/heroku/heroku-icon.svg"/>
+      </div>
+   </p>
+  </div>
+</div>
+</div>
+
+<!--Skill Card End-->
+
+<!--Projects Cards-->
+<h2 data-aos="fade-left" data-aos-duration="2000"class="heading"><strong>Projects 🚀</strong></h2>
+<div class="project-media">
+<div data-aos="fade-left" data-aos-duration="2000">
+  <a name="projects"></a>
+  <div class="projects">
+    <h2 class="card-heading"> Trek 📍</h2>
+      <img class="projects-img" src="images/Trek.png"/>
+      <p class="project-description">Trek is a trekking app that allows you to explore the great outdoors by choosing a route to go to and be able to add notifications along the way.
+         This was our final project during the bootcamp. I worked on both front end and backend for this project. </p>
+        <div class="skill-section">
+          <h4> Skills Used</h4>
+        <img class="skill-used" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg"/>
+        <img class="skill-used" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" />
+        <img class="skill-used" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg"/>
+        <img class="skill-used" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" />
+        <img class="skill-used" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg"/>
+        <img class="skill-used" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/ruby/ruby-original.svg"/>
+        <img class="skill-used" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/rails/rails-original-wordmark.svg"/>
+        <img class="skill-used" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg"/>
+        <img class="skill-used" src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg"/>
+        <img class="skill-used" src="https://www.vectorlogo.zone/logos/heroku/heroku-icon.svg"/>
+        </div>
+         <div class="card-buttons">
+         <a href="https://www.trek-app.com" target="_blank" class="btn-flat">View</a>
+         <a href="https://github.com/ferrari1188/Treking" target="_blank"  class="btn-flat">GitHub</a>
+         </div>
       </div>
     </div>
+
+
+  <div class="projects" data-aos="fade-right" data-aos-duration="2000">
+      <h2 class="card-heading"> Airbnb Clone 🏠</h2>
+      <img class="projects-img" src="images/airbnb.png"/>
+      <p class="project-description">This app is marketplace for renting out famous places as well as making bookings on other properties. This was our first project during the bootcamp.
+       I worked on the frontend and backend for this project. </p>
+       <div class="skill-section">
+          <h4> Skills Used</h4>
+        <img class="skill-used" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg"/>
+        <img class="skill-used" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" />
+        <img class="skill-used" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg"/>
+        <img class="skill-used" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" />
+        <img class="skill-used" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg"/>
+        <img class="skill-used" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/ruby/ruby-original.svg"/>
+        <img class="skill-used" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/rails/rails-original-wordmark.svg"/>
+        <img class="skill-used" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg"/>
+        <img class="skill-used" src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg"/>
+        <img class="skill-used" src="https://www.vectorlogo.zone/logos/heroku/heroku-icon.svg"/>
+        </div>
+     <div class="card-buttons">
+       <a href="https://airbnb-benwest0291.herokuapp.com/" target="_blank" class="btn-flat">View</a>
+       <a href="https://github.com/benwest0291/trek_air_bnb" target="_blank" class="btn-flat">GitHub</a>
+    </div>
+</div>
+
+  <div class="projects" data-aos="fade-left" data-aos-duration="2000">
+    <h2 class="card-heading"> KP Beauty 💅🏻 </h2>
+      <img class="projects-img" src="images/KP-beauty.png"/>
+      <p class="project-description">Trek is a trekking app that allows you to explore the great outdoors by choosing a route to go to and be able to add notifications along the way.
+         This was our final project during the bootcamp. I worked on both front end and backend for this project. </p>
+        <div class="skill-section">
+          <h4> Skills Used</h4>
+        <img class="skill-used" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg"/>
+        <img class="skill-used" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" />
+        <img class="skill-used" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg"/>
+         <img class="skill-used" src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg"/>
+        </div>
+         <div class="card-buttons">
+         <a href="https://youtube.com" target="_blank" class="btn-flat">Youtube</a>
+         <a href="https://github.com/benwest0291/KP-beauty" target="_blank" class="btn-flat">GitHub</a>
+         </div>
+      </div>
+    </div>
+
+
+ <div class="project-media">
+
+    <div class="projects" data-aos="fade-right" data-aos-duration="2000">
+    <h2 class="card-heading"> Marvel Guessing Game🦸🏻</h2>
+      <img class="projects-img" src="images/marvel-guessing.png"/>
+      <p class="project-description">Trek is a trekking app that allows you to explore the great outdoors by choosing a route to go to and be able to add notifications along the way.
+         This was our final project during the bootcamp. I worked on both front end and backend for this project. </p>
+        <div class="skill-section">
+          <h4> Skills Used</h4>
+        <img class="skill-used" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg"/>
+        <img class="skill-used" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" />
+        <img class="skill-used" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" />
+        <img class="skill-used" src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg"/>
+        </div>
+         <div class="card-buttons">
+         <a href="https://youtube.com" target="_blank" class="btn-flat">Youtube</a>
+         <a href="https://github.com/benwest0291/marvel-guessing-game/tree/master/Treehouse-FEWD-Techdegree-Project" target="_blank" class="btn-flat">GitHub</a>
+         </div>
+      </div>
+
+    <div class="projects" data-aos="fade-left" data-aos-duration="2000">
+    <h2 class="card-heading"> Interactive Dashboard</h2>
+      <img class="projects-img" src="images/interactive-dash.png"/>
+      <p class="project-description">Trek is a trekking app that allows you to explore the great outdoors by choosing a route to go to and be able to add notifications along the way.
+         This was our final project during the bootcamp. I worked on both front end and backend for this project. </p>
+       <div class="skill-section">
+          <h4> Skills Used</h4>
+        <img class="skill-used" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg"/>
+        <img class="skill-used" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" />
+        <img class="skill-used" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" />
+        <img class="skill-used" src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg"/>
+        </div>
+         <div class="card-buttons">
+         <a href="https://youtube.com" target="_blank" class="btn-flat">Youtube</a>
+         <a href="https://github.com/benwest0291/dashboard" target="_blank" class="btn-flat">GitHub</a>
+         </div>
+      </div>
+
+
+
+
+  <div class="projects" data-aos="fade-right" data-aos-duration="2000">
+
+    <h2 class="card-heading"> Web Dev Conference</h2>
+      <img class="projects-img" src="images/bootsrap project.png"/>
+      <p class="project-description">Trek is a trekking app that allows you to explore the great outdoors by choosing a route to go to and be able to add notifications along the way.
+         This was our final project during the bootcamp. I worked on both front end and backend for this project. </p>
+         <div class="skill-section">
+          <h4> Skills Used</h4>
+          <img class="skill-used" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg"/>
+          <img class="skill-used" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" />
+          <img class="skill-used" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" />
+          <img class="skill-used" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg"/>
+          <img class="skill-used" src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg"/>
+          </div>
+         <div class="card-buttons">
+         <a href="https://youtube.com" target="_blank" class="btn-flat">Youtube</a>
+         <a href="https://github.com/benwest0291/bootstrap-project" target="_blank" class="btn-flat">GitHub</a>
+         </div>
+
+  </div>
+
+</div>
+
+<div class="project-media">
+<!--Project cards End-->
+<!-- <img class="bottom-img" data-aos="fade-up"
+     data-aos-duration="3000"" src="https://images.unsplash.com/photo-1589652717521-10c0d092dea9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"> -->
+<!--Contact Card-->
+<a name="contact"></a>
+<div class="contact-card" data-aos="fade-up"
+     data-aos-duration="3000" >
+
+<h2 class="heading"><strong>Contact Me 📱</strong></h2>
+      <form id="contact-form" method="post" action="contactform.php">
+        <input name="name" type="text" class="form-control" placeholder="Your Name" required><br>
+
+        <input name="email" type="email" class="form-control" placeholder="Your Email" required><br>
+
+        <textarea name="message" class="form-control" placeholder="Message" rows="4" required></textarea><br>
+
+        <input type="submit" class="form-control submit" value="Send Message">
+      </form>
+    </div>
+    <!-- <img class="bottom-img" data-aos="fade-up"
+     data-aos-duration="3000" src="https://images.unsplash.com/photo-1589652717406-1c69efaf1ff8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=8"> -->
+  </div>
+
+</div>
+<!--Footer-->
+<div class="footer">
+      <div class="footer-links">
+        <a href="https://www.instagram.com/benwestwebdesignuk/ target="_blank""><i class="fab fa-instagram"></i></a>
+        <a href="https://www.facebook.com/BenWestWebDesign" target="_blank"><i class="fab fa-facebook"></i></a>
+        <a href="https://www.linkedin.com/in/ben-west-020691/ target="_blank""><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/benwest0291" target="_blank"><i class="fab fa-github"></i></a>
+      </div>
+      <div class="footer-copyright">
+      <p class="footer-text"></p>Ben West Web Design</p>
+      <p class="footer-text"></p>@2021 All Rights Reserved </p>
+      </div>
+    </div>
+    </div>
+<!--Footer-End-->
+<!--JS Scripts-->
     <script src="https://kit.fontawesome.com/c88efbc889.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init();</script>
 </body>
 </html>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">👋🏻</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+       <div class="contact-card">
+<h2 class="heading"><strong>Contact Me 📱</strong></h2>
+      <form id="contact-form" method="post" action="contactform.php">
+        <input name="name" type="text" class="form-control" placeholder="Your Name" required><br>
+
+        <input name="email" type="email" class="form-control" placeholder="Your Email" required><br>
+
+        <textarea name="message" class="form-control" placeholder="Message" rows="4" required></textarea><br>
+
+        <input type="submit" class="form-control submit" value="Send Message">
+      </form>
+    </div>
+  </div>
+</div>
+      </div>
+    </div>
+  </div>
+</div>
