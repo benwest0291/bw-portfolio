@@ -5,7 +5,7 @@
 
  $email_form = 'benwest0291@outlook.com';
 
- $email_subject = "New Form Submission";
+ $email_subject = "Message from Ben West Web Design";
 
  $email_body = "Name of Contact: $name.\n".
                "Email address: $visitor_email.\n".
