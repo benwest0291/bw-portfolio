@@ -107,6 +107,12 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   overflow-x: hidden;
+  max-width: 100%;
+  width: 100vw;
+}
+
+body:-webkit-scrollbar {
+  display: none;
 }
 
 .container {
