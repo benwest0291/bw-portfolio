@@ -127,6 +127,7 @@ body:-webkit-scrollbar {
 
 body {
   overflow-x: hidden;
+  font-family: 'Lato',sans-serif;
 }
 
 .container {
@@ -140,7 +141,6 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-family: 'Roboto', sans-serif;
 }
 
 .heading {
@@ -169,8 +169,8 @@ body {
 }
 
 .project-description {
-  margin-left: 25px;
-  margin-right: 25px;
+  margin-left: 35px;
+  margin-right: 35px;
 }
 
 .about-description-2 {
