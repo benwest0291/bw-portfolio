@@ -169,8 +169,8 @@ body {
 }
 
 .project-description {
-  margin-left: 15px;
-  margin-right: 15px;
+  margin-left: 25px;
+  margin-right: 25px;
 }
 
 .about-description-2 {
@@ -363,6 +363,7 @@ body {
 .projects-img {
   width: 390px;
   border-radius: 10px 10px;
+  border: 2px solid #fff;
 }
 
 .project-description {
@@ -426,6 +427,7 @@ body {
   -webkit-box-shadow: 2px 2px 5px rgba(30, 221, 136, 0.8);
           box-shadow: 2px 2px 5px rgba(30, 221, 136, 0.8);
   width: 500px;
+  padding: 50px;
 }
 
 input {
