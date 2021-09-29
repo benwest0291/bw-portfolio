@@ -107,8 +107,8 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   overflow-x: hidden;
-  max-width: 100%;
-  width: 100vw;
+  width: 100%;
+  position: relative;
 }
 
 body:-webkit-scrollbar {
@@ -126,11 +126,12 @@ body:-webkit-scrollbar {
 }
 
 body {
-  overflow-x: hidden;
   font-family: 'Lato',sans-serif;
 }
 
 .container {
+  overflow-x: hidden;
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
