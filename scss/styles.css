@@ -184,6 +184,14 @@ body {
   margin-right: 35px;
 }
 
+.project-spacing-airbnb {
+  padding-top: 28px;
+}
+
+.project-spacing-kp {
+  padding-top: 60px;
+}
+
 @media all and (min-width: 600px) {
   .media-container-1 {
     display: -webkit-box;
