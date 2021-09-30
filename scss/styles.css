@@ -169,11 +169,15 @@ body {
 }
 
 .project-spacing-airbnb {
-  padding-top: 28px;
+  padding-top: 35px;
 }
 
 .project-spacing-kp {
   padding-top: 60px;
+}
+
+.project-spacing-dashboard {
+  padding-top: 4px;
 }
 
 @media all and (min-width: 600px) {
