@@ -410,6 +410,26 @@ body {
   cursor: pointer;
 }
 
+.btn-flat-trek {
+  color: white !important;
+  padding: 8px 24px;
+  border-radius: 4px;
+  background: #1EDD88;
+  width: 150px;
+  text-align: center;
+  border: solid #fff 2px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.btn-flat-trek:hover {
+  background: #1BCB7F;
+  border: solid #1BCB7F;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
 .skills {
   background: linear-gradient(10deg, #2d364e, #8C93A6);
   border-radius: 10px 10px;
@@ -489,6 +509,16 @@ body {
   width: 25px;
   height: 25px;
   margin: 10px;
+}
+
+.card-buttons-trek {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 
 .freelance-card {
