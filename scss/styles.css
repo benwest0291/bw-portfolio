@@ -404,10 +404,11 @@ body {
 
 .btn-flat:hover {
   background: #1BCB7F;
-  border: #1BCB7F;
+  border-color: #1BCB7F;
   color: white;
   text-decoration: none;
   cursor: pointer;
+  padding: 8px 24px;
 }
 
 .btn-flat-trek {
@@ -424,7 +425,7 @@ body {
 
 .btn-flat-trek:hover {
   background: #1BCB7F;
-  border: #1BCB7F;
+  border-color: #1BCB7F;
   color: white;
   text-decoration: none;
   cursor: pointer;
