@@ -20,10 +20,18 @@ input{
 
 form .submit {
   background-color: #1EDD88;
-  box-shadow: 2px 2px 5px rgba(30, 221, 136, 0.8);
   color: #fff;
   font-size: 20px;
   height: 50px;
   margin-top: 20px;
   border: 2px solid #fff;
+}
+
+
+.submit:hover{
+  background: #1BCB7F;
+  border: #1BCB7F;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
 }
