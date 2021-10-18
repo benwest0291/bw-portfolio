@@ -246,6 +246,18 @@ body {
   .about-description-2 {
     padding-top: 40px;
   }
+  .nav-link:after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #1EDD88;
+    -webkit-transition: width .3s;
+    transition: width .3s;
+  }
+  .nav-link:hover::after {
+    width: 100%;
+  }
 }
 
 .banner {
