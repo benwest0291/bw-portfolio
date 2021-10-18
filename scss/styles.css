@@ -251,7 +251,7 @@ body {
     display: block;
     width: 0;
     height: 2px;
-    background: #1EDD88;
+    background: #fff;
     -webkit-transition: width .3s;
     transition: width .3s;
   }
